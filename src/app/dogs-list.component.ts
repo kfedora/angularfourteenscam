@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DogsService } from './dogs.service';
+import { DogsListCardComponent } from './dogs-list-card.component';
 
 @Component({
   selector: 'app-dogs-list',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, DogsListCardComponent],
   template: `
     <section class="hero-section">
       <h2 class="hero-text">
@@ -15,10 +16,7 @@ import { DogsService } from './dogs.service';
     <article class="pet-list">
       <ul>
         <li *ngFor="let dog of dogsService.dogs">
-          {{dog.name}}
-          <p>
-            {{dog.description}}
-          </p>
+          <app-dogs-list-card [dog]="dog"></app-dogs-list-card>
         </li>
       </ul>
     </article>
