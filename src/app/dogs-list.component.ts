@@ -15,9 +15,7 @@ import { DogsListCardComponent } from './dogs-list-card.component';
     </section>
     <article class="pet-list">
       <ul>
-        <li *ngFor="let dog of dogsService.dogs">
-          <app-dogs-list-card [dog]="dog"></app-dogs-list-card>
-        </li>
+        <app-dogs-list-card *ngFor="let dog of dogsService.dogs" [dog]="dog"></app-dogs-list-card>
       </ul>
     </article>
   `,
