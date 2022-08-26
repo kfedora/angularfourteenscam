@@ -7,20 +7,27 @@ import { Dog } from './dogs.service';
   standalone: true,
   imports: [CommonModule],
   template: `
-    {{dog.name}}
-    <p>
-      {{dog.description}}
-    </p>
-    <p>
-      Lives in: {{dog.location}}
-    </p>
-    <img [src]="dog.photoUrl" [alt]="dog.name" />
+    <section class="pet-card">
+      {{dog.name}}
+      <p>
+        {{dog.description}}
+      </p>
+      <p>
+        Lives in: {{dog.location}}
+      </p>
+      <img [src]="dog.photoUrl" [alt]="dog.name" />
+    </section>
   `,
   styles: [
     `
+    .pet-card {
+      display: grid;
+      border: 1px solid #81D4FA;
+      background-color: #B0BEC5;
+    }
     img {
-      max-width: 100%;
-      max-height: 50vh;
+      width: 100%;
+      height: 50vh;
     }
     `
   ]

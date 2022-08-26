@@ -14,12 +14,19 @@ import { DogsListCardComponent } from './dogs-list-card.component';
       </h2>
     </section>
     <article class="pet-list">
-      <ul>
-        <app-dogs-list-card *ngFor="let dog of dogsService.dogs" [dog]="dog"></app-dogs-list-card>
-      </ul>
+      <app-dogs-list-card *ngFor="let dog of dogsService.dogs" [dog]="dog"></app-dogs-list-card>
     </article>
   `,
   styles: [
+    `
+    .pet-list {
+      border: 1px solid #BBDEFB;
+      background-color: #CFD8DC;
+      display: grid;
+      grid-gap: 2rem;
+      grid-template-columns: repeat(auto-fill, minmax(50vh, 1fr));
+    }
+    `
   ]
 })
 export class DogsListComponent implements OnInit {
