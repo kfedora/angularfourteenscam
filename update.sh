@@ -21,7 +21,7 @@ echo '' >> README.md;
 
 echo "\`\`\`bash" >> README.md;
 date >> ping.txt;
-"" >> ping.txt;
+echo "" >> ping.txt;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
 "" >> ping.txt;
 git add .;
