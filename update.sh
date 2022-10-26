@@ -1,6 +1,7 @@
 #!/bin/bash
 
 date > ping.txt;
+"" >> ping.txt;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
 "" >> ping.txt;
 date > README.md;
@@ -19,6 +20,8 @@ echo 'CI Status: ' >> README.md;
 echo '' >> README.md;
 
 echo "\`\`\`bash" >> README.md;
+date >> ping.txt;
+"" >> ping.txt;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
 "" >> ping.txt;
 git add .;
@@ -35,6 +38,8 @@ git commit -m "end add system status";
 
 
 echo "\`\`\`bash" >> README.md;
+date >> ping.txt;
+"" >> ping.txt;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
 "" >> ping.txt;
 git add .;
@@ -47,7 +52,10 @@ export NODE_OPTIONS="--max-old-space-size=8000"; time npm install --global @angu
 export NODE_OPTIONS="--max-old-space-size=8000"; time yarn run ng --version >> README.md;
 time yarn >> README.md;
 echo "\`\`\`" >> README.md;
+date >> ping.txt;
+"" >> ping.txt;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
+"" >> ping.txt;
 git add .;
 git commit -m "end update node";
 
@@ -60,6 +68,8 @@ git add .;
 git commit -m "end prepare to update angular";
 
 echo "\`\`\`bash" >> README.md;
+date >> ping.txt;
+"" >> ping.txt;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
 "" >> ping.txt;
 git add .;
@@ -70,7 +80,10 @@ git add .;
 git commit -m "end prepare to build angular";
 
 echo "\`\`\`bash" > locallog/fedoratest.md;
+date >> ping.txt;
+"" >> ping.txt;
 ping -A -D -c 20 -v 8.8.8.8 > ping.txt;
+"" >> ping.txt;
 git add .;
 git commit -m "begin prepare to unit test angular";
 export NODE_OPTIONS="--max-old-space-size=8000"; time yarn run ng test --no-watch --browsers ChromeHeadless >> locallog/fedoratest.md;
@@ -80,6 +93,8 @@ git add .;
 git commit -m "end prepare to unit test angular";
 
 date >> README.md;
+date >> ping.txt;
+"" >> ping.txt;
 ping -D -c 20 -v 8.8.8.8 >> ping.txt;
 "" >> ping.txt;
 time yarn version --patch >> README.md;
