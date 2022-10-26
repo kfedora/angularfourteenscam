@@ -74,7 +74,7 @@ git commit -m "end prepare to build angular";
 echo "\`\`\`bash" > locallog/fedoratest.md;
 date >> ping.txt;
 echo "" >> ping.txt;
-ping -A -D -c 20 -v 8.8.8.8 > ping.txt;
+ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
 echo "" >> ping.txt;
 git add .;
 git commit -m "begin prepare to unit test angular";time yarn run ng test --no-watch --browsers ChromeHeadless >> locallog/fedoratest.md;
