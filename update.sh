@@ -1,6 +1,8 @@
 #!/bin/bash
 
-ping -A -D -c 20 -v 8.8.8.8 > ping.txt;
+date > ping.txt;
+ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
+"" >> ping.txt;
 date > README.md;
 git add .;
 git commit -m "add timestamp";
@@ -18,6 +20,7 @@ echo '' >> README.md;
 
 echo "\`\`\`bash" >> README.md;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
+"" >> ping.txt;
 git add .;
 git commit -m "begin add system status";
 echo "System Memory" >> README.md;
@@ -33,6 +36,7 @@ git commit -m "end add system status";
 
 echo "\`\`\`bash" >> README.md;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
+"" >> ping.txt;
 git add .;
 git commit -m "begin update node";
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh;  # This loads NVM
@@ -57,6 +61,7 @@ git commit -m "end prepare to update angular";
 
 echo "\`\`\`bash" >> README.md;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
+"" >> ping.txt;
 git add .;
 git commit -m "begin prepare to build angular";
 export NODE_OPTIONS="--max-old-space-size=8000"; time yarn run ng build --configuration production >> README.md;
@@ -76,6 +81,7 @@ git commit -m "end prepare to unit test angular";
 
 date >> README.md;
 ping -D -c 20 -v 8.8.8.8 >> ping.txt;
+"" >> ping.txt;
 time yarn version --patch >> README.md;
 git add .;
 git commit -m "add timestamp";
