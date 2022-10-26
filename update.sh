@@ -51,7 +51,7 @@ export NODE_OPTIONS="--max-old-space-size=8000";
 
 git add .;
 git commit -m "begin prepare to update angular";
-export NODE_OPTIONS="--max-old-space-size=8000"; time yarn run ng update @angular/core @angular/cli @angular/material @angular/localize;
+export NODE_OPTIONS="--max-old-space-size=8000"; time yarn run ng update @angular/core @angular/cli @angular/localize;
 git add .;
 git commit -m "end prepare to update angular";
 
