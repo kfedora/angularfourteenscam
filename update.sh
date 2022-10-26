@@ -1,9 +1,9 @@
 #!/bin/bash
 
 date > ping.txt;
-"" >> ping.txt;
+echo "" >> ping.txt;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
-"" >> ping.txt;
+echo "" >> ping.txt;
 date > README.md;
 git add .;
 git commit -m "add timestamp";
@@ -23,7 +23,7 @@ echo "\`\`\`bash" >> README.md;
 date >> ping.txt;
 echo "" >> ping.txt;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
-"" >> ping.txt;
+echo "" >> ping.txt;
 git add .;
 git commit -m "begin add system status";
 echo "System Memory" >> README.md;
@@ -39,9 +39,9 @@ git commit -m "end add system status";
 
 echo "\`\`\`bash" >> README.md;
 date >> ping.txt;
-"" >> ping.txt;
+echo "" >> ping.txt;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
-"" >> ping.txt;
+echo "" >> ping.txt;
 git add .;
 git commit -m "begin update node";
 time npm install --global @angular/cli yarn;
@@ -49,9 +49,9 @@ time yarn run ng --version >> README.md;
 time yarn >> README.md;
 echo "\`\`\`" >> README.md;
 date >> ping.txt;
-"" >> ping.txt;
+echo "" >> ping.txt;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
-"" >> ping.txt;
+echo "" >> ping.txt;
 git add .;
 git commit -m "end update node";
 
@@ -62,9 +62,9 @@ git commit -m "end prepare to update angular";
 
 echo "\`\`\`bash" >> README.md;
 date >> ping.txt;
-"" >> ping.txt;
+echo "" >> ping.txt;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
-"" >> ping.txt;
+echo "" >> ping.txt;
 git add .;
 git commit -m "begin prepare to build angular";time yarn run ng build --configuration production >> README.md;
 echo "\`\`\`" >> README.md;
@@ -73,9 +73,9 @@ git commit -m "end prepare to build angular";
 
 echo "\`\`\`bash" > locallog/fedoratest.md;
 date >> ping.txt;
-"" >> ping.txt;
+echo "" >> ping.txt;
 ping -A -D -c 20 -v 8.8.8.8 > ping.txt;
-"" >> ping.txt;
+echo "" >> ping.txt;
 git add .;
 git commit -m "begin prepare to unit test angular";time yarn run ng test --no-watch --browsers ChromeHeadless >> locallog/fedoratest.md;
 echo "\`\`\`" >> locallog/fedoratest.md;
@@ -85,9 +85,9 @@ git commit -m "end prepare to unit test angular";
 
 date >> README.md;
 date >> ping.txt;
-"" >> ping.txt;
+echo "" >> ping.txt;
 ping -D -c 20 -v 8.8.8.8 >> ping.txt;
-"" >> ping.txt;
+echo "" >> ping.txt;
 time yarn version --patch >> README.md;
 git add .;
 git commit -m "add timestamp";
