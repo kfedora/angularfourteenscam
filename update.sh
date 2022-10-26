@@ -44,12 +44,8 @@ ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
 "" >> ping.txt;
 git add .;
 git commit -m "begin update node";
-[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh;  # This loads NVM
-source ~/.nvm/nvm.sh;
-time nvm install --lts;
-time nvm use --lts;
-export NODE_OPTIONS="--max-old-space-size=8000"; time npm install --global @angular/cli yarn;
-export NODE_OPTIONS="--max-old-space-size=8000"; time yarn run ng --version >> README.md;
+time npm install --global @angular/cli yarn;
+time yarn run ng --version >> README.md;
 time yarn >> README.md;
 echo "\`\`\`" >> README.md;
 date >> ping.txt;
@@ -59,11 +55,8 @@ ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
 git add .;
 git commit -m "end update node";
 
-export NODE_OPTIONS="--max-old-space-size=8000";
-
 git add .;
-git commit -m "begin prepare to update angular";
-export NODE_OPTIONS="--max-old-space-size=8000"; time yarn run ng update @angular/core @angular/cli;
+git commit -m "begin prepare to update angular";time yarn run ng update @angular/core @angular/cli;
 git add .;
 git commit -m "end prepare to update angular";
 
@@ -73,8 +66,7 @@ date >> ping.txt;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
 "" >> ping.txt;
 git add .;
-git commit -m "begin prepare to build angular";
-export NODE_OPTIONS="--max-old-space-size=8000"; time yarn run ng build --configuration production >> README.md;
+git commit -m "begin prepare to build angular";time yarn run ng build --configuration production >> README.md;
 echo "\`\`\`" >> README.md;
 git add .;
 git commit -m "end prepare to build angular";
@@ -85,8 +77,7 @@ date >> ping.txt;
 ping -A -D -c 20 -v 8.8.8.8 > ping.txt;
 "" >> ping.txt;
 git add .;
-git commit -m "begin prepare to unit test angular";
-export NODE_OPTIONS="--max-old-space-size=8000"; time yarn run ng test --no-watch --browsers ChromeHeadless >> locallog/fedoratest.md;
+git commit -m "begin prepare to unit test angular";time yarn run ng test --no-watch --browsers ChromeHeadless >> locallog/fedoratest.md;
 echo "\`\`\`" >> locallog/fedoratest.md;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
 git add .;
