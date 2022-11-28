@@ -27,3 +27,27 @@ success Already up-to-date.
 Done in 0.32s.
 ```
 ```bash
+yarn run v1.22.19
+$ ng build --configuration production
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+
+Initial Chunk Files           | Names              |  Raw Size | Estimated Transfer Size
+main.4a9e8a32d2c84e17.js      | main               | 209.27 kB |                57.46 kB
+polyfills.b54ca7212227a0af.js | polyfills          |  33.09 kB |                10.65 kB
+runtime.e8e811f396100709.js   | runtime            |   2.73 kB |                 1.27 kB
+styles.ef46db3751d8e999.css   | styles             |   0 bytes |                       -
+
+| Initial Total      | 245.09 kB |                69.38 kB
+
+Lazy Chunk Files              | Names              |  Raw Size | Estimated Transfer Size
+566.af368755c8f2cf43.js       | dog-view-component |   1.58 kB |               792 bytes
+
+Build at: 2022-11-28T22:07:54.885Z - Hash: e6bc4a0c34b5b139 - Time: 3600ms
+Done in 5.43s.
+```
