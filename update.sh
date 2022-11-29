@@ -59,7 +59,10 @@ git add .;
 git commit -m "begin prepare to update angular";time yarn run ng update @angular/core @angular/cli;
 git add .;
 git commit -m "end prepare to update angular";
+
+echo "\`\`\`bash" >> README.md 2>&1;
 time npx browserslist --update-db >> README.md 2>&1;
+echo "\`\`\`" >> README.md 2>&1;
 
 echo "\`\`\`bash" >> README.md 2>&1;
 date >> ping.txt;
