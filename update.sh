@@ -22,7 +22,7 @@ echo '' >> README.md 2>&1;
 echo "\`\`\`bash" >> README.md 2>&1;
 date >> ping.txt;
 echo "" >> ping.txt;
-ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
+ping -A -D -c 20 -v 8.8.8.8 >> ping.txt 2>&1;
 echo "" >> ping.txt;
 git add .;
 git commit -m "begin add system status";
@@ -59,6 +59,7 @@ git add .;
 git commit -m "begin prepare to update angular";time yarn run ng update @angular/core @angular/cli;
 git add .;
 git commit -m "end prepare to update angular";
+time npx browserslist --update-db >> README.md 2>&1;
 
 echo "\`\`\`bash" >> README.md 2>&1;
 date >> ping.txt;
