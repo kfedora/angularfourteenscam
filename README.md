@@ -16,3 +16,13 @@ System Storage
 799M	.
 ```
 ```bash
+yarn run v1.22.19
+$ ng --version
+Error: You need to specify a command before moving on. Use '--help' to view the available commands.
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn install v1.22.19
+[1/4] Resolving packages...
+success Already up-to-date.
+Done in 0.31s.
+```
