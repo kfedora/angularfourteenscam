@@ -45,7 +45,7 @@ echo "" >> ping.txt;
 git add .;
 git commit -m "begin update node";
 time npm install --global @angular/cli yarn;
-time yarn run ng --version >> README.md 2>&1;
+time yarn run ng version >> README.md 2>&1;
 time yarn >> README.md 2>&1;
 echo "\`\`\`" >> README.md 2>&1;
 date >> ping.txt;
