@@ -145,3 +145,21 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 20 packets transmitted, 20 received, 0% packet loss, time 363ms
 rtt min/avg/max/mdev = 11.688/23.829/70.922/14.372 ms, pipe 5, ipg/ewma 19.126/25.787 ms
 
+Thu Jan  5 10:47:24 AM EST 2023
+
+ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+[1672933644.683827] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=115 time=24.4 ms
+[1672933644.710261] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=115 time=26.3 ms
+[1672933644.728588] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=115 time=20.5 ms
+[1672933644.753971] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=115 time=21.9 ms
+[1672933644.774341] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=115 time=18.2 ms
+[1672933644.794201] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=115 time=16.1 ms
+[1672933644.814719] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=115 time=14.6 ms
+[1672933644.838738] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=115 time=17.6 ms
+[1672933644.859222] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=115 time=17.1 ms
+
+--- 8.8.8.8 ping statistics ---
+20 packets transmitted, 9 received, 55% packet loss, time 405ms
+rtt min/avg/max/mdev = 14.604/19.645/26.349/3.707 ms, pipe 2, ipg/ewma 21.299/20.377 ms
+
