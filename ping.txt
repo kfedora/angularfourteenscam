@@ -145,3 +145,32 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 20 packets transmitted, 20 received, 0% packet loss, time 358ms
 rtt min/avg/max/mdev = 13.726/19.735/32.896/4.367 ms, pipe 2, ipg/ewma 18.831/19.630 ms
 
+Wed Jan 18 12:10:35 PM EST 2023
+
+ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+[1674061835.850348] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=55 time=20.6 ms
+[1674061835.870677] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=55 time=20.0 ms
+[1674061835.890282] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=55 time=18.7 ms
+[1674061835.915384] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=55 time=23.8 ms
+[1674061835.931762] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=55 time=19.9 ms
+[1674061835.950925] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=55 time=18.1 ms
+[1674061835.970459] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=55 time=17.6 ms
+[1674061835.992781] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=55 time=19.9 ms
+[1674061836.013219] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=55 time=20.3 ms
+[1674061836.035137] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=55 time=22.1 ms
+[1674061836.050180] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=55 time=16.8 ms
+[1674061836.070408] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=55 time=17.0 ms
+[1674061836.090059] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=55 time=17.6 ms
+[1674061836.116452] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=55 time=25.0 ms
+[1674061836.129921] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=55 time=19.2 ms
+[1674061836.145031] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=55 time=14.4 ms
+[1674061836.165041] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=55 time=15.4 ms
+[1674061836.185330] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=55 time=16.6 ms
+[1674061836.215280] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=55 time=28.6 ms
+[1674061836.219993] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=55 time=15.2 ms
+
+--- 8.8.8.8 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 375ms
+rtt min/avg/max/mdev = 14.366/19.339/28.572/3.420 ms, pipe 2, ipg/ewma 19.745/19.154 ms
+
