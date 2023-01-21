@@ -86,3 +86,8 @@ Lazy Chunk Files              | Names              |  Raw Size | Estimated Trans
 Build at: 2023-01-21T00:47:35.091Z - Hash: f9fba1648809415d - Time: 4505ms
 Done in 6.86s.
 ```
+Fri Jan 20 07:47:46 PM EST 2023
+yarn version v1.22.19
+info Current version: 0.0.299
+info New version: 0.0.300
+Done in 0.14s.
