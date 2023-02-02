@@ -145,3 +145,32 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 20 packets transmitted, 20 received, 0% packet loss, time 813ms
 rtt min/avg/max/mdev = 15.110/31.158/62.732/14.566 ms, pipe 2, ipg/ewma 42.782/28.340 ms
 
+Thu Feb  2 03:55:07 PM EST 2023
+
+ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+[1675371308.281858] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=113 time=384 ms
+[1675371308.356482] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=113 time=74.3 ms
+[1675371308.778306] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=113 time=151 ms
+[1675371308.978794] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=113 time=30.0 ms
+[1675371309.363093] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=113 time=130 ms
+[1675371309.573823] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=113 time=75.0 ms
+[1675371309.788786] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=113 time=48.2 ms
+[1675371310.018819] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=113 time=60.3 ms
+[1675371310.189370] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=113 time=32.3 ms
+[1675371310.389361] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=113 time=54.2 ms
+[1675371310.538526] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=113 time=40.4 ms
+[1675371310.670844] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=113 time=25.8 ms
+[1675371310.826457] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=113 time=50.2 ms
+[1675371310.961165] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=113 time=63.3 ms
+[1675371311.033812] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=113 time=21.0 ms
+[1675371311.143141] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=113 time=28.1 ms
+[1675371311.246296] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=113 time=37.5 ms
+[1675371311.351573] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=113 time=55.9 ms
+[1675371311.444168] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=113 time=66.9 ms
+[1675371311.519793] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=113 time=62.0 ms
+
+--- 8.8.8.8 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 3560ms
+rtt min/avg/max/mdev = 20.994/74.504/383.601/77.711 ms, ipg/ewma 187.356/78.105 ms
+
