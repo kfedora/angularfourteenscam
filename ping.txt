@@ -145,3 +145,32 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 20 packets transmitted, 20 received, 0% packet loss, time 765ms
 rtt min/avg/max/mdev = 12.321/30.431/52.723/12.090 ms, pipe 2, ipg/ewma 40.269/24.724 ms
 
+Mon Feb  6 04:34:22 AM EST 2023
+
+ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+[1675676062.923943] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=116 time=46.8 ms
+[1675676062.970731] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=116 time=46.6 ms
+[1675676062.998976] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=116 time=27.8 ms
+[1675676063.041537] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=116 time=26.2 ms
+[1675676063.085132] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=116 time=27.2 ms
+[1675676063.135966] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=116 time=37.5 ms
+[1675676063.175849] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=116 time=37.4 ms
+[1675676063.201156] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=116 time=22.8 ms
+[1675676063.231417] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=116 time=15.9 ms
+[1675676063.267150] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=116 time=16.3 ms
+[1675676063.305357] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=116 time=22.0 ms
+[1675676063.329399] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=116 time=15.0 ms
+[1675676063.361789] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=116 time=18.0 ms
+[1675676063.386699] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=116 time=15.0 ms
+[1675676063.411290] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=116 time=13.2 ms
+[1675676063.440350] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=116 time=16.7 ms
+[1675676063.464649] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=116 time=17.0 ms
+[1675676063.490585] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=116 time=20.0 ms
+[1675676063.508348] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=116 time=15.7 ms
+[1675676063.536911] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=116 time=22.2 ms
+
+--- 8.8.8.8 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 637ms
+rtt min/avg/max/mdev = 13.173/23.969/46.814/10.131 ms, ipg/ewma 33.548/21.654 ms
+
