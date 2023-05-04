@@ -53,3 +53,21 @@ yarn install v1.22.19
 success Already up-to-date.
 Done in 0.38s.
 ```
+```bash
+Latest version:     1.0.30001482
+Installed versions: 1.0.30001481, 1.0.30001482
+Removing old caniuse-lite from lock file
+Installing new caniuse-lite version
+$ yarn add -W caniuse-lite
+warning Pattern ["caniuse-lite@^1.0.30001482"] is trying to unpack in the same destination "/home/kushal/.cache/yarn/v6/npm-caniuse-lite-1.0.30001482-8b3fad73dc35b2674a5c96df2d4f9f1c561435de-integrity/node_modules/caniuse-lite" as pattern ["caniuse-lite@^1.0.30001464","caniuse-lite@^1.0.30001449","caniuse-lite@^1.0.30001370","caniuse-lite@^1.0.30001400"]. This could result in non-deterministic behavior, skipping.
+warning "@angular-devkit/build-angular > postcss-loader > cosmiconfig-typescript-loader@4.3.0" has unmet peer dependency "@types/node@*".
+warning "@angular-devkit/build-angular > postcss-loader > cosmiconfig-typescript-loader@4.3.0" has unmet peer dependency "ts-node@>=10".
+Cleaning package.json dependencies from caniuse-lite
+$ yarn remove -W caniuse-lite
+warning "@angular-devkit/build-angular > postcss-loader > cosmiconfig-typescript-loader@4.3.0" has unmet peer dependency "@types/node@*".
+warning "@angular-devkit/build-angular > postcss-loader > cosmiconfig-typescript-loader@4.3.0" has unmet peer dependency "ts-node@>=10".
+caniuse-lite has been successfully updated
+
+No target browser changes
+```
+```bash
