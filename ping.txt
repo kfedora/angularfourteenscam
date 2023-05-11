@@ -200,3 +200,32 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 20 packets transmitted, 19 received, +1 errors, 5% packet loss, time 935ms
 rtt min/avg/max/mdev = 36.801/49.848/63.575/6.629 ms, pipe 2, ipg/ewma 49.222/51.743 ms
+Thu May 11 07:30:26 AM EDT 2023
+
+ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+[1683804626.302691] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=57.9 ms
+[1683804627.284485] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=37.4 ms
+[1683804628.292676] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=44.2 ms
+[1683804629.287358] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=37.4 ms
+[1683804630.309081] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=57.5 ms
+[1683804631.317397] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=64.5 ms
+[1683804632.445573] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=191 ms
+[1683804633.321715] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=66.2 ms
+[1683804634.304285] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=47.0 ms
+[1683804635.292605] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=34.6 ms
+[1683804636.324515] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=53 time=64.9 ms
+[1683804637.266788] From 35.146.244.21 icmp_seq=12 Destination Host Unreachable
+[1683804638.333937] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=53 time=72.4 ms
+[1683804639.325752] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=53 time=63.3 ms
+[1683804640.328368] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=53 time=64.8 ms
+[1683804641.324360] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=53 time=58.8 ms
+[1683804642.322298] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=53 time=54.7 ms
+[1683804643.300675] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=53 time=31.2 ms
+[1683804644.364045] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=53 time=93.5 ms
+[1683804645.307144] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=53 time=35.7 ms
+
+--- 8.8.8.8 ping statistics ---
+20 packets transmitted, 19 received, +1 errors, 5% packet loss, time 19026ms
+rtt min/avg/max/mdev = 31.164/61.957/191.136/34.079 ms
+
