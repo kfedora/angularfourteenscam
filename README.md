@@ -52,3 +52,23 @@ yarn install v1.22.19
 success Already up-to-date.
 Done in 0.32s.
 ```
+```bash
+{"type":"error","data":"Received invalid response from npm."}
+undefined:1
+
+
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at getLatestInfo (/home/kushal/src/angular/angularfourteenscam/node_modules/@angular-devkit/build-angular/node_modules/update-browserslist-db/index.js:62:19)
+    at updateDB (/home/kushal/src/angular/angularfourteenscam/node_modules/@angular-devkit/build-angular/node_modules/update-browserslist-db/index.js:264:16)
+    at Object.<anonymous> (/home/kushal/src/angular/angularfourteenscam/node_modules/@angular-devkit/build-angular/node_modules/browserslist/cli.js:42:3)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+```
+```bash
