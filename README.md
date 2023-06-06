@@ -52,3 +52,20 @@ yarn install v1.22.19
 success Already up-to-date.
 Done in 0.35s.
 ```
+```bash
+Latest version:     1.0.30001495
+Installed version:  1.0.30001494
+Removing old caniuse-lite from lock file
+Installing new caniuse-lite version
+$ yarn add -W caniuse-lite
+warning "@angular-devkit/build-angular > postcss-loader > cosmiconfig-typescript-loader@4.3.0" has unmet peer dependency "@types/node@*".
+warning "@angular-devkit/build-angular > postcss-loader > cosmiconfig-typescript-loader@4.3.0" has unmet peer dependency "ts-node@>=10".
+Cleaning package.json dependencies from caniuse-lite
+$ yarn remove -W caniuse-lite
+warning "@angular-devkit/build-angular > postcss-loader > cosmiconfig-typescript-loader@4.3.0" has unmet peer dependency "@types/node@*".
+warning "@angular-devkit/build-angular > postcss-loader > cosmiconfig-typescript-loader@4.3.0" has unmet peer dependency "ts-node@>=10".
+caniuse-lite has been successfully updated
+
+No target browser changes
+```
+```bash
