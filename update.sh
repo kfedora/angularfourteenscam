@@ -87,6 +87,8 @@ ping -A -D -c 20 -v 8.8.8.8 >> ping.txt;
 git add .;
 git commit -m "end prepare to unit test angular";
 
+echo "[![codebeat badge](https://codebeat.co/badges/8cb3c84a-d002-4f78-98dd-3540260c751a)](https://codebeat.co/projects/github-com-kfedora-angularfourteenscam-master)" >> README.md 2>&1;
+
 date >> README.md 2>&1;
 date >> ping.txt;
 echo "" >> ping.txt;
