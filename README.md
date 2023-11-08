@@ -53,3 +53,15 @@ yarn install v1.22.19
 success Already up-to-date.
 Done in 0.37s.
 ```
+```bash
+The --update-db command is deprecated.
+Please use npx update-browserslist-db@latest instead.
+Browserslist DB update will still be made.
+Latest version:     1.0.30001561
+Installed version:  1.0.30001561
+caniuse-lite is up to date
+caniuse-lite has been successfully updated
+
+No target browser changes
+```
+```bash
