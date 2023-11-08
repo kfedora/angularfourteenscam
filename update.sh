@@ -61,7 +61,7 @@ git add .;
 git commit -m "end prepare to update angular";
 
 echo "\`\`\`bash" >> README.md 2>&1;
-time npx browserslist --update-db >> README.md 2>&1;
+time npx update-browserslist-db@latest >> README.md 2>&1;
 echo "\`\`\`" >> README.md 2>&1;
 
 echo "\`\`\`bash" >> README.md 2>&1;
