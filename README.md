@@ -54,3 +54,14 @@ yarn install v1.22.21
 success Already up-to-date.
 Done in 0.30s.
 ```
+```bash
+(node:53541) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+Latest version:     1.0.30001563
+Installed version:  1.0.30001563
+caniuse-lite is up to date
+caniuse-lite has been successfully updated
+
+No target browser changes
+```
+```bash
