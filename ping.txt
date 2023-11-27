@@ -116,3 +116,32 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 20 packets transmitted, 20 received, 0% packet loss, time 770ms
 rtt min/avg/max/mdev = 35.598/39.714/48.074/2.999 ms, pipe 2, ipg/ewma 40.507/39.345 ms
 
+Sun Nov 26 09:21:31 PM EST 2023
+
+ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+[1701051691.579064] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=75.6 ms
+[1701051691.630138] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=50.7 ms
+[1701051691.693145] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=39.4 ms
+[1701051691.784410] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=61.6 ms
+[1701051691.897538] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=107 ms
+[1701051692.045017] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=186 ms
+[1701051692.114013] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=182 ms
+[1701051692.180061] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=175 ms
+[1701051692.252270] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=160 ms
+[1701051692.313503] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=112 ms
+[1701051692.459038] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=53 time=143 ms
+[1701051692.559882] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=53 time=129 ms
+[1701051692.652042] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=53 time=102 ms
+[1701051692.741494] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=53 time=74.1 ms
+[1701051692.858858] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=53 time=78.7 ms
+[1701051692.941964] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=53 time=53.4 ms
+[1701051693.030215] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=53 time=39.5 ms
+[1701051693.131801] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=53 time=46.8 ms
+[1701051693.221377] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=53 time=48.8 ms
+[1701051693.299645] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=53 time=43.5 ms
+
+--- 8.8.8.8 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 1753ms
+rtt min/avg/max/mdev = 39.397/95.382/185.661/49.738 ms, pipe 3, ipg/ewma 92.246/77.672 ms
+
