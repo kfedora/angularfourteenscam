@@ -145,3 +145,32 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 20 packets transmitted, 20 received, 0% packet loss, time 633ms
 rtt min/avg/max/mdev = 26.923/31.709/41.144/4.028 ms, pipe 2, ipg/ewma 33.335/31.103 ms
 
+Mon Jan 15 10:30:19 AM EST 2024
+
+ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+[1705332619.916849] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=42.5 ms
+[1705332619.961761] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=44.8 ms
+[1705332619.990751] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=31.2 ms
+[1705332620.039975] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=112 time=39.4 ms
+[1705332620.078077] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=112 time=36.5 ms
+[1705332620.112950] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=112 time=31.4 ms
+[1705332620.149164] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=112 time=28.6 ms
+[1705332620.197120] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=112 time=38.5 ms
+[1705332620.240549] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=112 time=43.3 ms
+[1705332620.276734] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=112 time=40.9 ms
+[1705332620.313024] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=112 time=37.2 ms
+[1705332620.347506] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=112 time=32.6 ms
+[1705332620.393548] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=112 time=40.7 ms
+[1705332620.424839] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=112 time=33.3 ms
+[1705332620.466264] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=112 time=36.8 ms
+[1705332620.498583] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=112 time=31.1 ms
+[1705332620.531258] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=112 time=26.8 ms
+[1705332620.574862] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=112 time=34.4 ms
+[1705332620.607142] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=112 time=31.6 ms
+[1705332620.640807] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=112 time=30.3 ms
+
+--- 8.8.8.8 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 736ms
+rtt min/avg/max/mdev = 26.805/35.583/44.769/5.083 ms, pipe 2, ipg/ewma 38.741/34.338 ms
+
