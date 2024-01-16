@@ -87,3 +87,32 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 20 packets transmitted, 20 received, 0% packet loss, time 815ms
 rtt min/avg/max/mdev = 37.196/42.311/58.447/4.888 ms, pipe 2, ipg/ewma 42.898/42.388 ms
 
+Mon Jan 15 10:59:52 PM EST 2024
+
+ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+[1705377592.734655] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=197 ms
+[1705377592.774503] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=39.6 ms
+[1705377592.978399] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=64.0 ms
+[1705377593.192850] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=115 ms
+[1705377593.384267] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=148 ms
+[1705377593.431227] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=38.8 ms
+[1705377593.602751] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=67.7 ms
+[1705377593.810850] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=142 ms
+[1705377593.845277] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=44.1 ms
+[1705377594.011263] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=87.2 ms
+[1705377594.174911] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=53 time=132 ms
+[1705377594.217100] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=53 time=55.4 ms
+[1705377594.421182] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=53 time=146 ms
+[1705377594.425242] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=53 time=37.7 ms
+[1705377594.663382] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=53 time=168 ms
+[1705377594.663449] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=53 time=62.0 ms
+[1705377594.754551] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=53 time=45.8 ms
+[1705377594.849622] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=53 time=39.3 ms
+[1705377594.945551] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=53 time=42.1 ms
+[1705377595.043023] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=53 time=53.1 ms
+
+--- 8.8.8.8 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 2453ms
+rtt min/avg/max/mdev = 37.719/86.276/197.288/50.158 ms, pipe 2, ipg/ewma 129.082/81.841 ms
+
