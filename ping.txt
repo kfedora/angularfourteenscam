@@ -87,3 +87,32 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 20 packets transmitted, 20 received, 0% packet loss, time 1424ms
 rtt min/avg/max/mdev = 42.394/66.274/90.607/9.712 ms, pipe 2, ipg/ewma 74.929/67.657 ms
 
+Mon Jan 22 05:49:00 PM EST 2024
+
+ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+[1705963740.149313] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=115 ms
+[1705963740.310157] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=161 ms
+[1705963740.364567] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=100 ms
+[1705963740.451984] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=69.1 ms
+[1705963740.568862] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=73.2 ms
+[1705963740.671380] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=67.8 ms
+[1705963740.774556] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=67.4 ms
+[1705963740.875534] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=70.2 ms
+[1705963740.970536] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=69.2 ms
+[1705963741.130223] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=137 ms
+[1705963741.185534] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=53 time=101 ms
+[1705963741.285565] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=53 time=103 ms
+[1705963741.399720] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=53 time=118 ms
+[1705963741.454791] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=53 time=74.4 ms
+[1705963741.600633] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=53 time=122 ms
+[1705963741.733958] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=53 time=158 ms
+[1705963741.802648] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=53 time=125 ms
+[1705963741.937602] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=53 time=152 ms
+[1705963741.990929] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=53 time=94.4 ms
+[1705963742.144994] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=53 time=134 ms
+
+--- 8.8.8.8 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 1977ms
+rtt min/avg/max/mdev = 67.384/105.571/160.675/31.324 ms, pipe 2, ipg/ewma 104.036/115.231 ms
+
