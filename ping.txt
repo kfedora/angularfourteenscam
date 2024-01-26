@@ -27,3 +27,34 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 20 packets transmitted, 20 received, 0% packet loss, time 792ms
 rtt min/avg/max/mdev = 36.633/40.572/47.486/3.129 ms, pipe 2, ipg/ewma 41.675/40.423 ms
 
+Fri Jan 26 07:26:01 AM EST 2024
+
+ping: sock4.fd: 3 (socktype: SOCK_DGRAM), sock6.fd: 4 (socktype: SOCK_DGRAM), hints.ai_family: AF_UNSPEC
+
+ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+[1706271961.601073] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=44.5 ms
+[1706271961.642418] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=41.3 ms
+[1706271961.682483] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=37.3 ms
+[1706271961.724383] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=37.2 ms
+[1706271961.767293] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=38.1 ms
+[1706271961.808130] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=36.9 ms
+[1706271961.855855] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=43.6 ms
+[1706271961.892690] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=38.9 ms
+[1706271961.935397] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=40.6 ms
+[1706271961.975337] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=39.5 ms
+[1706271962.017274] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=53 time=40.5 ms
+[1706271962.056583] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=53 time=38.8 ms
+[1706271962.104016] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=53 time=45.2 ms
+[1706271962.139338] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=53 time=38.9 ms
+[1706271962.188761] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=53 time=47.4 ms
+[1706271962.227247] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=53 time=44.2 ms
+[1706271962.271907] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=53 time=45.4 ms
+[1706271962.307722] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=53 time=37.7 ms
+[1706271962.352743] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=53 time=40.8 ms
+[1706271962.395747] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=53 time=41.8 ms
+
+--- 8.8.8.8 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 797ms
+rtt min/avg/max/mdev = 36.903/40.921/47.352/3.064 ms, pipe 2, ipg/ewma 41.964/41.731 ms
+
