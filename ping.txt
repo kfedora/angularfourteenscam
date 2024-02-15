@@ -116,3 +116,32 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 20 packets transmitted, 20 received, 0% packet loss, time 563ms
 rtt min/avg/max/mdev = 25.472/29.035/37.084/3.201 ms, pipe 2, ipg/ewma 29.636/29.471 ms
 
+Thu Feb 15 06:50:51 AM EST 2024
+
+ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+[1707997851.701040] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=78.0 ms
+[1707997851.728213] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=27.0 ms
+[1707997851.902929] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=112 time=56.2 ms
+[1707997851.902999] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=129 ms
+[1707997851.951395] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=112 time=26.6 ms
+[1707997852.108014] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=112 time=111 ms
+[1707997852.108052] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=112 time=39.2 ms
+[1707997852.282279] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=112 time=141 ms
+[1707997852.310306] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=112 time=98.3 ms
+[1707997852.319744] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=112 time=26.7 ms
+[1707997852.487850] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=112 time=119 ms
+[1707997852.513922] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=112 time=69.8 ms
+[1707997852.553108] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=112 time=30.0 ms
+[1707997852.729952] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=112 time=133 ms
+[1707997852.730017] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=112 time=59.5 ms
+[1707997852.897293] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=112 time=148 ms
+[1707997852.925454] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=112 time=97.1 ms
+[1707997852.945313] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=112 time=29.4 ms
+[1707997853.136722] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=112 time=139 ms
+[1707997853.136789] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=112 time=57.4 ms
+
+--- 8.8.8.8 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 1456ms
+rtt min/avg/max/mdev = 26.648/80.763/147.535/42.974 ms, pipe 2, ipg/ewma 76.644/84.163 ms
+
