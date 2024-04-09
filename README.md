@@ -53,3 +53,16 @@ yarn install v1.22.22
 success Already up-to-date.
 Done in 0.34s.
 ```
+```bash
+Latest version:     1.0.30001607
+Installed version:  1.0.30001605
+Removing old caniuse-lite from lock file
+Installing new caniuse-lite version
+$ yarn add -W caniuse-lite
+Cleaning package.json dependencies from caniuse-lite
+$ yarn remove -W caniuse-lite
+caniuse-lite has been successfully updated
+
+No target browser changes
+```
+```bash
