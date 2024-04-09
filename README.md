@@ -8,3 +8,9 @@ This project is live at [https://angularfourteenscam.vercel.app/](https://angula
 CI Status: 
 
 ```bash
+System Memory
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       6.9Gi       1.5Gi       1.1Gi       8.2Gi       8.4Gi
+Swap:          8.0Gi       2.6Gi       5.4Gi
+System Storage
+916M	.
